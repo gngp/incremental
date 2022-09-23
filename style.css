@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Typewriter';
+  src: url('MonospaceTypewriter.ttf');
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat-VariableFont_wght.ttf');
+}
+body {
+  font-family: Montserrat;
+}
+#headerdisplay {
+  font-size: 32px;
+  font-family: Montserrat;
+  text-align: center;
+}
+#moneydisplay {
+  font-family: Typewriter;
+}
+#moneyupgr1,#moneyupgr1cost {
+  border: 2px solid #606060;
+  background-color: lightgrey;
+  color: #606060;
+  padding: 5px;
+  display: inline-block;
+  width: 15%;
+  align: middle;
+  text-align: center;
+}
